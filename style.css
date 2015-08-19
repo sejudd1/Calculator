@@ -10,10 +10,98 @@ h1 {
 	text-align: center;
 }
 
-#X {
-	background-color: darkgray;
+#equals    {
+	background-color: dodgerblue;
+}
+
+#minus{ 
+	background-color: dodgerblue;
+
+} 
+
+#plus{
+	background-color: dodgerblue;
 
 }
+
+#times {
+	background-color: dodgerblue;
+
+}
+
+#decimal {
+	background-color: dodgerblue;
+
+}
+
+#division {
+	background-color: dodgerblue;
+
+}
+
+#percent {
+	background-color: dodgerblue;
+
+}
+
+#squared {
+	background-color: dodgerblue;
+
+
+}
+
+#squared:hover{
+	background-color: blue;
+	color: white;
+
+}
+
+#percent:hover{
+	background-color: blue;
+	color: white;
+
+} 
+
+#division:hover{
+	background-color: blue;
+	color: white;
+
+} 
+
+#decimal:hover{
+	background-color: blue;
+	color: white;
+
+} 
+
+#times:hover{
+	background-color: blue;
+	color: white;
+
+}
+
+#plus:hover{
+	background-color: blue;
+	color: white;
+
+}
+
+#minus:hover{
+	background-color: blue;
+	color: white;
+
+}
+
+#equals:hover{
+	background-color: blue;
+	color: white;
+
+}
+
+td {
+	margin: 0 auto;
+}
+
 
 .buttons {
   background-color: gray;
@@ -21,6 +109,16 @@ h1 {
   border: 1px solid #777;
   padding: 10px;
   border-radius: 3px;
+  width: 200px;
+  height: 40px;
+  display: block;
+  text-align: center;
+}
+
+.buttons:hover {
+	background-color: dimgray;
+	color: white;
+
 }
 
 table {
@@ -29,18 +127,6 @@ table {
   text-align: right;
 }
 
-table .buttons {
-  width: 100%;
-  display: block;
-  text-align: center;
-}
-
-
-table .window {
-	width: 100%;
-  	display: block;
-  	text-align: center;
-}
 
 .window {
 	background-color: white;
@@ -49,11 +135,15 @@ table .window {
   	padding: 10px;
   	border-radius: 3px;
   	height: 40px;
+  	width: 600px;
+  	display: block;
+  	text-align: center;
+  	margin: 0 auto;
 
 }
 
 table .clear {
-	width: 100%;
+	width: 200px;
   	display: block;
   	text-align: center;
 
@@ -67,6 +157,11 @@ table .clear {
   	padding: 10px;
   	border-radius: 3px;
   	height: 40px;
+}
+
+.clear:hover{
+	background-color: gray;
+
 }
 
 
