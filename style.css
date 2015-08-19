@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 26px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#X {
+	background-color: darkgray;
+
+}
+
+.buttons {
+  background-color: gray;
+  text-decoration: none;
+  border: 1px solid #777;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+table {
+  width: 600px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+table .buttons {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+
+table .window {
+	width: 100%;
+  	display: block;
+  	text-align: center;
+}
+
+.window {
+	background-color: white;
+  	text-decoration: none;
+  	border: 1px solid #777;
+  	padding: 10px;
+  	border-radius: 3px;
+  	height: 40px;
+
+}
+
+table .clear {
+	width: 100%;
+  	display: block;
+  	text-align: center;
+
+}
+
+.clear {
+	background-color: black;
+	color: white;
+  	text-decoration: none;
+  	border: 1px solid #777;
+  	padding: 10px;
+  	border-radius: 3px;
+  	height: 40px;
+}
+
+
+
